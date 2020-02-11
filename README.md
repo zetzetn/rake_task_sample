@@ -1,24 +1,9 @@
-# README
+# 不具合内容
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+”rake import_csv:users”を実施後
+インポート処理を開始
+rake aborted!
+ActiveRecord::StatementInvalid: Could not find table 'users'
+/Users/taniguchitakayasu/Desktop/projects/rake_task_sample/lib/tasks/import_csv.rake:26:in `block (2 levels) in <main>'
+Tasks: TOP => import_csv:users
+(See full trace by running task with --trace)
